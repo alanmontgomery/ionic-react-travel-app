@@ -82,6 +82,18 @@ http://ionicframework.com/docs/theming/ */
   background-color: white;
   height: 4px;
   width: 4px;
-  margin-top: 2.75rem;
+  margin-top: 1.2rem;
   position: absolute;
+  z-index: 999;
+}
+
+input.searchbar-input {
+
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+ion-searchbar ion-icon {
+
+  margin-top: 0.4rem;
 }

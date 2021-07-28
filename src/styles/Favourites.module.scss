@@ -1,0 +1,34 @@
+.favouriteButton {
+
+    background-color: rgb(241, 241, 241);
+    width: fit-content;
+    display: flex;
+	margin: 0 auto;
+    border-radius: 500px;
+    padding: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+
+    svg {
+
+        margin-left: -0.05rem;
+        height: 4.2rem;
+        width: 4.2rem;
+        color: rgb(243, 102, 102);
+    }
+}
+
+.message {
+
+	h2 {
+
+		color: black;
+		font-size: 1.2rem;
+	}
+
+	p {
+		color: rgb(165, 165, 165);
+		font-size: 0.9rem;
+		margin-top: 0.5rem;
+	}
+}

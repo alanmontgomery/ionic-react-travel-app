@@ -2,10 +2,35 @@
 
 * {
 
-    font-family: 'Poppins', sans-serif;
+    // font-family: 'Poppins', sans-serif;
 }
 
 .bold {
 
     font-weight: 700;
+}
+
+.favouriteButton {
+
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 500px;
+    padding: 0.4rem;
+
+    svg {
+
+        margin-left: -0.05rem;
+        height: 1.2rem;
+        width: 1.2rem;
+        color: rgb(243, 102, 102);
+    }
 }

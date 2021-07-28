@@ -48,8 +48,97 @@
     }
 }
 
-.slidesContainer {
+.slidesContainer,
+.longSlidesContainer {
 
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-top: -1.25rem;
+}
+
+.search {
+
+    --border-radius: 10px;
+    --background: rgb(246, 246, 246);
+    --color: black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    // padding-top: 0;
+}
+
+.slide {
+
+    width: 70%;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    border-radius: 20px;
+
+    img {
+        
+        border-radius: 20px;
+        height: 10rem;
+        width: 100%;
+        padding: 0;
+    }
+
+    ion-card-title {
+
+        margin-top: -0.5rem;
+        font-size: 0.8rem;
+    }
+
+    ion-note {
+
+        font-size: 0.6rem;
+    }
+
+    .imageHeader {
+
+        position: relative;
+    }
+}
+
+.longSlide {
+
+    width: 80%;
+    padding: 0.5rem;
+    padding-bottom: 0.3rem;
+    border-radius: 20px;
+
+    img {
+        
+        border-radius: 20px;
+        height: 5rem;
+        width: 100%;
+        padding: 0;
+    }
+
+    .details {
+
+        margin-top: -3.75rem;
+        position: absolute;
+        z-index: 999;
+        margin-left: 0.5rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 0.4rem;
+        border-radius: 10px;
+        width: 80%;
+    }
+
+    ion-card-title {
+
+        font-size: 0.8rem;
+        --color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    ion-note {
+
+        font-size: 0.6rem;
+        --color: white;
+    }
+
+    .imageHeader {
+
+        position: relative;
+    }
 }

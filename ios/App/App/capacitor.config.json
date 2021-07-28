@@ -1,0 +1,6 @@
+{
+	"appId": "com.example.app",
+	"appName": "ionic-react-travel-app",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

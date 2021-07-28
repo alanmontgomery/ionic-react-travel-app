@@ -1,0 +1,171 @@
+.customHeader {
+
+	img {
+
+		border-bottom-left-radius: 150px;
+		// border-bottom-right-radius: 50px;
+	}
+}
+
+.customBackButton {
+
+	position: absolute;
+	top: 3rem;
+	left: 1.4rem;
+	border-radius: 500px;
+	padding: 0.5rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px solid white;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+
+	svg {
+
+		color: rgb(255, 255, 255);
+		height: 1.75rem;
+		width: 1.75rem;
+	}
+}
+
+.customFavouriteButton {
+
+	position: absolute;
+	top: 3rem;
+	right: 1.4rem;
+	border-radius: 500px;
+	padding: 0.5rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 2px solid white;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+
+	svg {
+
+		color: rgb(255, 255, 255);
+		height: 1.75rem;
+		width: 1.75rem;
+	}
+}
+
+.mainContent {
+
+	// position: relative;
+	margin-top: -5rem !important;
+	z-index: 99;
+}
+
+.placeHeading {
+
+	$grad_color: #f8f8f8;
+	$main_color: white;
+
+	background:
+		linear-gradient(135deg, $grad_color 25%, transparent 25%) -50px 0,
+		linear-gradient(225deg, $grad_color 25%, transparent 25%) -50px 0,
+		linear-gradient(315deg, $grad_color 25%, transparent 25%),
+		linear-gradient(45deg, $grad_color 25%, transparent 25%);
+		background-size: 100px 100px;
+		background-color: $main_color;
+}
+
+.footer {
+
+	position: absolute;
+	bottom: 2rem;
+}
+
+.footerContent {
+
+	width: 87%;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	padding: 1.5rem;
+	background-color: var(--ion-color-dark);
+	border-radius: 30px;
+
+	ion-card-title {
+
+		font-size: 1.2rem;
+		--color: white;
+	}
+
+	svg {
+
+		height: 2rem;
+		width: 2rem;
+		color: white;
+	}
+}
+
+.statContainer {
+
+	border-right: 2px solid rgb(230, 230, 230);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+
+	ion-note {
+
+		margin-top: 0.5rem;
+	}
+}
+
+.temp {
+
+	border: none;
+}
+
+.placeholderMapCard {
+
+    padding-bottom: 0;
+    border-radius: 30px;
+	border: 2px solid rgb(221, 221, 221);
+	height: 10rem;
+
+	img {
+		
+		height: 10rem;
+		width: 100%;
+	}
+	padding-bottom: 0;
+}
+
+.aboutContainer {
+
+	margin-top: -1rem;
+	padding: 1rem;
+
+	ion-card-title {
+
+		font-size: 1.2rem;
+		margin-bottom: 0.5rem;
+	}
+}
+
+.price {
+
+	background-color: rgba(0, 0, 0, 0.075);
+	padding: 0.5rem;
+	margin-right: 1rem;
+	font-size: 1.4rem;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.priceSub {
+
+	font-size: 0.7rem;
+	margin-right: 1rem;
+	margin-left: -1rem;
+}
