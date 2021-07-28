@@ -1,0 +1,55 @@
+.avatar {
+
+    img {
+
+        border-radius: 15px;
+        height: 4rem;
+        width: 4rem;
+        border: 2px solid rgb(235, 235, 235);
+        padding: 0.1rem;
+    }
+}
+
+.notifications {
+
+    border-radius: 500px;
+    border: 2px solid rgb(235, 235, 235);
+    padding: 0.5rem;
+    color: rgb(202, 202, 202);
+}
+
+.notificationIndicator {
+
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 500px;
+    margin-top: -2.6rem;
+    margin-left: 1.6rem;
+}
+
+.welcome {
+
+    margin-left: -1.5rem;
+
+    h3 {
+
+        padding: 0;
+        margin-top: 0.4rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    ion-note {
+
+        font-size: 0.9rem;
+    }
+}
+
+.slidesContainer {
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
